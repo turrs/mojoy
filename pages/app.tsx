@@ -6,14 +6,14 @@ type AppProps = {};
 const App = (props: AppProps) => {
   return (
     <div>
-      <div className="flex">
+      <div className="flex bg-background">
         <div className="w-1/12 h-screen">
           <Sidebar />
         </div>
-        <div className="w-8/12">
+        <div className="sm:w-9/12 w-full h-full">
           <MainMenuApp />
         </div>
-        <div className="w-4/12">
+        <div className="sm:w-3/12 hidden bg-sidebar sm:block">
           <Payment />
         </div>
       </div>
