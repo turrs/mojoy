@@ -7,7 +7,7 @@ type MainMenuAppProps = {};
 
 const MainMenuApp = (props: MainMenuAppProps) => {
   return (
-    <div className=" sm:px-6 md:px-12 px-4 py-12 w-full">
+    <div className="relative sm:px-6 md:px-12 px-4 py-12 w-full">
       <div className="flex flex-row w-full  justify-between">
         <div className="hidden sm:block">
           <p className="text-purple font-semibold text-2xl">Welcome Admin</p>
@@ -44,6 +44,7 @@ const MainMenuApp = (props: MainMenuAppProps) => {
           </div>
         </div>
       </div>
+      <div className="absolute block md:hidden">weeew</div>
     </div>
   );
 };

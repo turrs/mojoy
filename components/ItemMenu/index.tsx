@@ -6,7 +6,7 @@ type ItemMenuProps = {};
 
 const ItemMenu = (props: ItemMenuProps) => {
   return (
-    <div className="w-full h-full rounded-xl sm:p-0 p-2 bg-white rounded-xl">
+    <div className="w-full h-full rounded-xl sm:p-0 p-2 bg-white rounded-xl drop-shadow-[4px_4px_4px_rgba(0,0,0,0.25)]">
       <div className="sm:h-64 h-44 w-full  relative ">
         <Image
           src="/coffe.png"
